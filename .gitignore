@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/
+data/raw/
+data/processed/
+
+# Models
+models/
+*.pkl
+*.joblib
+
+# IDE files
+.vscode/
+
+
+# Streamlit / app cache
+.streamlit/
+
+# Misc
+*.csv
