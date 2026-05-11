@@ -9,25 +9,20 @@ venv/
 env/
 .venv/
 
-# Jupyter Notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
-# Data files
-data/
-data/raw/
-data/processed/
+# Models 
+models/*.pkl
+models/*.joblib
 
-# Models
-models/
-*.pkl
-*.joblib
-
-# IDE files
+# IDE
 .vscode/
 
-
-# Streamlit / app cache
+# Streamlit cache
 .streamlit/
 
+data/raw/
+
 # Misc
-*.csv
+*.log
